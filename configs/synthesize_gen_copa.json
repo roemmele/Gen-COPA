@@ -1,0 +1,35 @@
+{
+    "data_file": "./data/example_data/dev_exemplars_only_1000_items.jsonl",
+    "prompt": "{% for exemplar in exemplars %}Premise: {{exemplar['premise']}}\n{% if exemplar['asks_for'] == 'cause' %}What was the cause of this?{% else %}What happened as a result?{% endif %}\nMore Plausible Alternative: {% if exemplar['more_plausible_alternative'] == '1' %}{{exemplar['alternative_1']}}{% else %}{{exemplar['alternative_2']}}{% endif %}\nLess Plausible Alternative: {% if exemplar['more_plausible_alternative'] == '1' %}{{exemplar['alternative_2']}}{% else %}{{exemplar['alternative_1']}}{% endif %}\n\n{% endfor %}Premise:",
+    "model": "microsoft/phi-2",
+    // Specify "api" and "endpoint" for interacting with model remotely
+    "api": "huggingface",
+    "endpoint": "https://api-inference.huggingface.co/models/microsoft/phi-2",
+    // To run model locally as alternative to querying remote endpoint, set "task" and "device" (instead of "api" and "endpoint")
+    //"task": "text-generation",
+    //"device": "mps",
+    // "quantization_params": {
+    //     "load_in_4bit": true
+    // },
+    "out_file": "./data/example_outputs/phi-2_gen-copa_items.jsonl",
+    "generation_params": {
+        "max_new_tokens": 200, //100
+        "do_sample": true,
+        "top_p": 0.9
+    },
+    "credentials": { //Specify API key for openai, huggingface, and cohere; for openai, also specify organization ID
+        "openai": {
+            "organization": "",
+            "api_key": ""
+        },
+        "huggingface": {
+            "api_key": "YOUR_API_KEY"
+        },
+        "cohere": {
+            "api_key": ""
+        },
+        "anthropic": {
+            "api_key": ""
+        }
+    }
+}

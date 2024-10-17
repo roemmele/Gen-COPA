@@ -1,0 +1,686 @@
+{
+    "spearmanr_original_COPA_accuracy_gen_COPA_consistency": {
+        "correlation": 0.9727272727272729,
+        "p_value": 5.142177049049182e-07
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_consistency_greedy_200_items": {
+        "correlation": 0.9500000000000001,
+        "p_value": 8.762523965086177e-05
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_validity": {
+        "correlation": 0.8727272727272729,
+        "p_value": 0.00045461505140964
+    },
+    "spearmanr_original_COPA_accuracy_valid_gen_COPA_high_quality": {
+        "correlation": 0.7608220194556026,
+        "p_value": 0.006545082815417342
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_validity_given_consistency": {
+        "correlation": 0.8833333333333333,
+        "p_value": 0.0015905004234978701
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_first30valid_accuracy": {
+        "correlation": 0.9500000000000001,
+        "p_value": 8.762523965086177e-05
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_valid_accuracy": {
+        "correlation": 1.0,
+        "p_value": 0.0
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.9258317893464786,
+        "p_value": 4.3313591681195504e-05
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_bloom_accuracy": {
+        "correlation": 0.9908673886137246,
+        "p_value": 3.840636985884142e-09
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9589141064521686,
+        "p_value": 3.18628952220055e-06
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.990909090909091,
+        "p_value": 3.762571807085399e-09
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9589141064521686,
+        "p_value": 3.18628952220055e-06
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9476106589626668,
+        "p_value": 9.356372175999983e-06
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.956722299914231,
+        "p_value": 4.013025855932823e-06
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8883849927775,
+        "p_value": 0.00025779557163303654
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9476106589626668,
+        "p_value": 9.356372175999983e-06
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9840572227689233,
+        "p_value": 4.666690957849571e-08
+    },
+    "spearmanr_original_COPA_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9589141064521686,
+        "p_value": 3.18628952220055e-06
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_consistency_greedy_200_items": {
+        "correlation": 0.9666666666666667,
+        "p_value": 2.1550312748357714e-05
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_validity": {
+        "correlation": 0.9181818181818183,
+        "p_value": 6.661451941355569e-05
+    },
+    "spearmanr_gen_COPA_consistency_valid_gen_COPA_high_quality": {
+        "correlation": 0.7744894808829488,
+        "p_value": 0.005131181460128413
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_validity_given_consistency": {
+        "correlation": 0.9333333333333332,
+        "p_value": 0.00023589981215941676
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_first30valid_accuracy": {
+        "correlation": 0.9666666666666667,
+        "p_value": 2.1550312748357714e-05
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_valid_accuracy": {
+        "correlation": 0.9727272727272729,
+        "p_value": 5.142177049049182e-07
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.9118745261905016,
+        "p_value": 9.218303333221514e-05
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_bloom_accuracy": {
+        "correlation": 0.9725179925282853,
+        "p_value": 5.320531526388088e-07
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9497815911526241,
+        "p_value": 7.758430023835023e-06
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.9545454545454546,
+        "p_value": 4.988898739949763e-06
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9406490758530798,
+        "p_value": 1.6237414404569946e-05
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.961278120390013,
+        "p_value": 2.4488608545989222e-06
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.961278120390013,
+        "p_value": 2.4488608545989222e-06
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.9066082746806284,
+        "p_value": 0.00011876621411541871
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9749455818173591,
+        "p_value": 3.521607439939669e-07
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9795014022931412,
+        "p_value": 1.4367375757070426e-07
+    },
+    "spearmanr_gen_COPA_consistency_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9543478488023964,
+        "p_value": 5.085777558779542e-06
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_validity": {
+        "correlation": 0.8666666666666667,
+        "p_value": 0.0024953982859902053
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_valid_gen_COPA_high_quality": {
+        "correlation": 0.5272012675161055,
+        "p_value": 0.14469933213386174
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_validity_given_consistency": {
+        "correlation": 0.8833333333333333,
+        "p_value": 0.0015905004234978701
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_first30valid_accuracy": {
+        "correlation": 0.9666666666666667,
+        "p_value": 2.1550312748357714e-05
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_valid_accuracy": {
+        "correlation": 0.9500000000000001,
+        "p_value": 8.762523965086177e-05
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.9323373174786143,
+        "p_value": 0.0002482208981491406
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_bloom_accuracy": {
+        "correlation": 0.9831920802501751,
+        "p_value": 1.9939655111787246e-06
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.8870370532810664,
+        "p_value": 0.0014260236511493699
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.9333333333333332,
+        "p_value": 0.00023589981215941676
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.8619322310183947,
+        "p_value": 0.0028059289678377063
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9833333333333333,
+        "p_value": 1.9361963037459277e-06
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9288784237188525,
+        "p_value": 0.0002945257641989606
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8870370532810664,
+        "p_value": 0.0014260236511493699
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9666666666666667,
+        "p_value": 2.1550312748357714e-05
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9500000000000001,
+        "p_value": 8.762523965086177e-05
+    },
+    "spearmanr_gen_COPA_consistency_greedy_200_items_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9539832459815244,
+        "p_value": 6.578871303553375e-05
+    },
+    "spearmanr_gen_COPA_validity_valid_gen_COPA_high_quality": {
+        "correlation": 0.7517103785040387,
+        "p_value": 0.007634086980142683
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_validity_given_consistency": {
+        "correlation": 0.9666666666666667,
+        "p_value": 2.1550312748357714e-05
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_first30valid_accuracy": {
+        "correlation": 0.9333333333333332,
+        "p_value": 0.00023589981215941676
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_valid_accuracy": {
+        "correlation": 0.8727272727272729,
+        "p_value": 0.00045461505140964
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.7443873683187767,
+        "p_value": 0.0086008917808537
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_bloom_accuracy": {
+        "correlation": 0.8532469179729295,
+        "p_value": 0.0008379421757788743
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9041190146549017,
+        "p_value": 0.0001331977471728704
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.8181818181818182,
+        "p_value": 0.0020831448404786904
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.748866254562646,
+        "p_value": 0.007999600054543152
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.8428267880196796,
+        "p_value": 0.0011230729173028996
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9157199156321926,
+        "p_value": 7.584505093519599e-05
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.9248315565837565,
+        "p_value": 4.5937178318385934e-05
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9476106589626668,
+        "p_value": 9.356372175999983e-06
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.8974966337290643,
+        "p_value": 0.00017813381131300817
+    },
+    "spearmanr_gen_COPA_validity_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.7808300581110516,
+        "p_value": 0.004558029271828917
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_validity_given_consistency": {
+        "correlation": 0.7531446678801508,
+        "p_value": 0.019141958595405708
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_first30valid_accuracy": {
+        "correlation": 0.6610936529170212,
+        "p_value": 0.05252286046708899
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_valid_accuracy": {
+        "correlation": 0.7608220194556027,
+        "p_value": 0.006545082815417328
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.6481612978713506,
+        "p_value": 0.031017077571273408
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_bloom_accuracy": {
+        "correlation": 0.7126606262964834,
+        "p_value": 0.013844546726678595
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.8054940998150336,
+        "p_value": 0.002767376820416612
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.6970405327946539,
+        "p_value": 0.017133034845219823
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.741420705511565,
+        "p_value": 0.009016892072391643
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.6484018264840183,
+        "p_value": 0.030934000399303534
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.7808219178082192,
+        "p_value": 0.004558733315353356
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.7351598173515982,
+        "p_value": 0.009942676974030604
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.7671232876712328,
+        "p_value": 0.00586178158731611
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.7579908675799087,
+        "p_value": 0.006870375840401974
+    },
+    "spearmanr_valid_gen_COPA_high_quality_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.6727706401864201,
+        "p_value": 0.023300785847894082
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_first30valid_accuracy": {
+        "correlation": 0.9333333333333332,
+        "p_value": 0.00023589981215941676
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_valid_accuracy": {
+        "correlation": 0.8833333333333333,
+        "p_value": 0.0015905004234978701
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.8306277919354926,
+        "p_value": 0.005555423798528978
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_bloom_accuracy": {
+        "correlation": 0.8645309671165333,
+        "p_value": 0.0026323718448338423
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9372466978064098,
+        "p_value": 0.00019163134226574257
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.8166666666666667,
+        "p_value": 0.007224785246358786
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.7782494901428224,
+        "p_value": 0.013505972810006874
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.8166666666666667,
+        "p_value": 0.007224785246358786
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.8451956828432803,
+        "p_value": 0.004116597419302816
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.9372466978064098,
+        "p_value": 0.00019163134226574257
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9333333333333332,
+        "p_value": 0.00023589981215941676
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.8833333333333333,
+        "p_value": 0.0015905004234978701
+    },
+    "spearmanr_gen_COPA_validity_given_consistency_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.8200908605806085,
+        "p_value": 0.0067875328192439684
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_valid_accuracy": {
+        "correlation": 0.9500000000000001,
+        "p_value": 8.762523965086177e-05
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.8984341422975738,
+        "p_value": 0.0009941951576176486
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_bloom_accuracy": {
+        "correlation": 0.9492889050691345,
+        "p_value": 9.200022809995661e-05
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9539832459815244,
+        "p_value": 6.578871303553375e-05
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.9,
+        "p_value": 0.0009430623223403293
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.8451956828432803,
+        "p_value": 0.004116597419302816
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9166666666666666,
+        "p_value": 0.0005066190663052084
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9623515200690814,
+        "p_value": 3.285856459769498e-05
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.9539832459815244,
+        "p_value": 6.578871303553375e-05
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 1.0,
+        "p_value": 0.0
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9500000000000001,
+        "p_value": 8.762523965086177e-05
+    },
+    "spearmanr_gen_COPA_first30valid_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.8870370532810664,
+        "p_value": 0.0014260236511493699
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_bloom-7b1_accuracy": {
+        "correlation": 0.9258317893464786,
+        "p_value": 4.3313591681195504e-05
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_bloom_accuracy": {
+        "correlation": 0.9908673886137246,
+        "p_value": 3.840636985884142e-09
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9589141064521686,
+        "p_value": 3.18628952220055e-06
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.990909090909091,
+        "p_value": 3.762571807085399e-09
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9589141064521686,
+        "p_value": 3.18628952220055e-06
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9476106589626668,
+        "p_value": 9.356372175999983e-06
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.956722299914231,
+        "p_value": 4.013025855932823e-06
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8883849927775,
+        "p_value": 0.00025779557163303654
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9476106589626668,
+        "p_value": 9.356372175999983e-06
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9840572227689233,
+        "p_value": 4.666690957849571e-08
+    },
+    "spearmanr_gen_COPA_valid_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9589141064521686,
+        "p_value": 3.18628952220055e-06
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_bloom_accuracy": {
+        "correlation": 0.9343649816165267,
+        "p_value": 2.53047784334912e-05
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.848279038019555,
+        "p_value": 0.0009660648287479719
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.9258317893464786,
+        "p_value": 4.3313591681195504e-05
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9417533121814894,
+        "p_value": 1.4945683848327309e-05
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.8743182974883326,
+        "p_value": 0.00043062291758847506
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.8510031428886435,
+        "p_value": 0.0008941125475351134
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.7647370708697949,
+        "p_value": 0.006114047699252795
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.8556661738085815,
+        "p_value": 0.0007804020331541866
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.8743182974883326,
+        "p_value": 0.00043062291758847506
+    },
+    "spearmanr_gen_COPA_bloom-7b1_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9440901690355377,
+        "p_value": 1.247316852896246e-05
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_falcon-7b_accuracy": {
+        "correlation": 0.9447104919992738,
+        "p_value": 1.1873155487053677e-05
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.9908673886137245,
+        "p_value": 3.840636985884346e-09
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9539271797260962,
+        "p_value": 5.296844190976362e-06
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9747358243539002,
+        "p_value": 3.65513074736452e-07
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9471489614004878,
+        "p_value": 9.72662779915393e-06
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8643883725402509,
+        "p_value": 0.0005973367207769961
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9471489614004878,
+        "p_value": 9.72662779915393e-06
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9747358243539002,
+        "p_value": 3.65513074736452e-07
+    },
+    "spearmanr_gen_COPA_bloom_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9815772429065625,
+        "p_value": 8.912814362958423e-08
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_falcon-40b_accuracy": {
+        "correlation": 0.9360828182033074,
+        "p_value": 2.2514702736297794e-05
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9036697247706422,
+        "p_value": 0.00013593883248144811
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9084691978027509,
+        "p_value": 0.0001087818081896331
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9313525529111326,
+        "p_value": 3.083051105705665e-05
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.9611009145520287,
+        "p_value": 2.4990538729520903e-06
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9656775855737052,
+        "p_value": 1.4322999122036072e-06
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9542359080195143,
+        "p_value": 5.141297766248003e-06
+    },
+    "spearmanr_gen_COPA_falcon-7b_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9013761467889909,
+        "p_value": 0.00015060862811357823
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_Llama-2-7b-hf_accuracy": {
+        "correlation": 0.9680466217517132,
+        "p_value": 1.0417196122078686e-06
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.956722299914231,
+        "p_value": 4.013025855932823e-06
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9248315565837565,
+        "p_value": 4.5937178318385934e-05
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8564942494470258,
+        "p_value": 0.0007614084643335121
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9157199156321926,
+        "p_value": 7.584505093519599e-05
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9749455818173591,
+        "p_value": 3.521607439939669e-07
+    },
+    "spearmanr_gen_COPA_falcon-40b_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9726128794014852,
+        "p_value": 5.239083007335477e-07
+    },
+    "spearmanr_gen_COPA_Llama-2-7b-hf_accuracy_gen_COPA_Llama-2-13b-hf_accuracy": {
+        "correlation": 0.9130458688244274,
+        "p_value": 8.694674370039286e-05
+    },
+    "spearmanr_gen_COPA_Llama-2-7b-hf_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.8855858426943694,
+        "p_value": 0.00028698933045121926
+    },
+    "spearmanr_gen_COPA_Llama-2-7b-hf_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8169357773692245,
+        "p_value": 0.0021440563806511947
+    },
+    "spearmanr_gen_COPA_Llama-2-7b-hf_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.8764325006510167,
+        "p_value": 0.0004002401004745919
+    },
+    "spearmanr_gen_COPA_Llama-2-7b-hf_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9405058949544853,
+        "p_value": 1.6410992541895888e-05
+    },
+    "spearmanr_gen_COPA_Llama-2-7b-hf_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9655963302752294,
+        "p_value": 1.447451452182939e-06
+    },
+    "spearmanr_gen_COPA_Llama-2-13b-hf_accuracy_gen_COPA_Llama-2-70b-hf_accuracy": {
+        "correlation": 0.9269406392694064,
+        "p_value": 4.0541001047604464e-05
+    },
+    "spearmanr_gen_COPA_Llama-2-13b-hf_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8493150684931507,
+        "p_value": 0.0009382053111018989
+    },
+    "spearmanr_gen_COPA_Llama-2-13b-hf_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9406392694063928,
+        "p_value": 1.6249257526166228e-05
+    },
+    "spearmanr_gen_COPA_Llama-2-13b-hf_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9634703196347033,
+        "p_value": 1.8899451541969864e-06
+    },
+    "spearmanr_gen_COPA_Llama-2-13b-hf_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9679659210845433,
+        "p_value": 1.0534880767990876e-06
+    },
+    "spearmanr_gen_COPA_Llama-2-70b-hf_accuracy_gen_COPA_mpt-7b_accuracy": {
+        "correlation": 0.8926940639269407,
+        "p_value": 0.00021733212681290164
+    },
+    "spearmanr_gen_COPA_Llama-2-70b-hf_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9748858447488585,
+        "p_value": 3.559242528817121e-07
+    },
+    "spearmanr_gen_COPA_Llama-2-70b-hf_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9634703196347033,
+        "p_value": 1.8899451541969864e-06
+    },
+    "spearmanr_gen_COPA_Llama-2-70b-hf_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.8901625137160457,
+        "p_value": 0.00024046630569363487
+    },
+    "spearmanr_gen_COPA_mpt-7b_accuracy_gen_COPA_mpt-30b_accuracy": {
+        "correlation": 0.9474885844748858,
+        "p_value": 9.453195012357891e-06
+    },
+    "spearmanr_gen_COPA_mpt-7b_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9132420091324202,
+        "p_value": 8.60926474323988e-05
+    },
+    "spearmanr_gen_COPA_mpt-7b_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.8009174287933573,
+        "p_value": 0.0030510602951477027
+    },
+    "spearmanr_gen_COPA_mpt-30b_accuracy_gen_COPA_phi-2_accuracy": {
+        "correlation": 0.9589041095890412,
+        "p_value": 3.1897333806540938e-06
+    },
+    "spearmanr_gen_COPA_mpt-30b_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9016041912702365,
+        "p_value": 0.000149098373585373
+    },
+    "spearmanr_gen_COPA_phi-2_accuracy_gen_COPA_Mistral-7B_accuracy": {
+        "correlation": 0.9405058949544852,
+        "p_value": 1.6410992541895973e-05
+    }
+}

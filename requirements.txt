@@ -1,0 +1,12 @@
+fire
+nltk
+Jinja2
+numpy
+torch
+sentencepiece
+transformers
+pandas
+statsmodels
+scipy
+commentjson
+seaborn

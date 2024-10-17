@@ -1,0 +1,35 @@
+{
+    "data_file": "./data/example_outputs/pre-validation-passed_items/phi-2_gen-copa_items.examples.jsonl",
+    "prompt": "{% for exemplar in evaluation_exemplars %}Premise: {{exemplar['premise']}}\n{% if exemplar['asks_for'] == 'cause' %}What was the cause of this?{% else %}What happened as a result?{% endif %}\nAlternative 1: {{exemplar['alternative_1']}}\nAlternative 2: {{exemplar['alternative_2']}}\nThe more plausible {% if exemplar['asks_for'] == 'cause' %}cause{% else %}result{% endif %} is Alternative {{exemplar['more_plausible_alternative']}}.\n\n{% endfor %}Premise: {{premise}}\n{% if asks_for == 'cause' %}What was the cause of this?{% else %}What happened as a result?{% endif %}\nAlternative 1: {{alternative_1}}\nAlternative 2: {{alternative_2}}\nThe more plausible {% if asks_for == 'cause' %}cause{% else %}result{% endif %} is Alternative",
+    "model": "microsoft/phi-2",
+    // Specify "api" and "endpoint" for interacting with model remotely
+    "api": "huggingface",
+    "endpoint": "https://api-inference.huggingface.co/models/microsoft/phi-2",
+    // To run model locally as alternative to querying remote endpoint, set "task" and "device" (instead of "api" and "endpoint")
+    //"task": "text-generation",
+    //"device": "mps",
+    "out_file": "./data/example_outputs/pre_validation_consistency/phi-2_gen-copa_items.jsonl",
+    "generation_params": {
+        "max_new_tokens": 4,
+        //"temperature": 0.0
+        "do_sample": false
+        // "top_k": 1
+        // "top_p": 0.01
+    },
+    "max_attempts": 3,
+    "credentials": { //Specify API key for openai, huggingface, and cohere; for openai, also specify organization ID
+        "openai": {
+            "organization": "",
+            "api_key": ""
+        },
+        "huggingface": {
+            "api_key": "YOUR_API_KEY"
+        },
+        "cohere": {
+            "api_key": ""
+        },
+        "anthropic": {
+            "api_key": ""
+        }
+    }
+}

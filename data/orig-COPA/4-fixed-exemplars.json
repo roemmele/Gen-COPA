@@ -1,0 +1,34 @@
+[
+    {
+        "item_id": "dev-1",
+        "asks_for": "cause",
+        "premise": "My body cast a shadow over the grass.",
+        "alternative_1": "The sun was rising.",
+        "alternative_2": "The grass was cut.",
+        "more_plausible_alternative": "1"
+    },
+    {
+        "item_id": "dev-12",
+        "asks_for": "effect",
+        "premise": "The elderly woman suffered a stroke.",
+        "alternative_1": "The woman's daughter came over to clean her house.",
+        "alternative_2": "The woman's daughter moved in to take care of her.",
+        "more_plausible_alternative": "2"
+    },
+    {
+        "item_id": "dev-3",
+        "asks_for": "cause",
+        "premise": "The women met for coffee.",
+        "alternative_1": "The cafe reopened in a new location.",
+        "alternative_2": "They wanted to catch up with each other.",
+        "more_plausible_alternative": "2"
+    },
+    {
+        "item_id": "dev-9",
+        "asks_for": "effect",
+        "premise": "The physician misdiagnosed the patient.",
+        "alternative_1": "The patient filed a malpractice lawsuit against the physician.",
+        "alternative_2": "The patient disclosed confidential information to the physician.",
+        "more_plausible_alternative": "1"
+    }
+]
